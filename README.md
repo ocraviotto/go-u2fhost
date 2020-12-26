@@ -1,5 +1,5 @@
 # u2fhost
-[![GoDoc](https://godoc.org/github.com/marshallbrekka/go-u2fhost?status.svg)](http://godoc.org/github.com/marshallbrekka/go-u2fhost) [![CircleCI](https://circleci.com/gh/marshallbrekka/go-u2fhost.svg?style=shield)](https://circleci.com/gh/marshallbrekka/go-u2fhost) [![codecov](https://codecov.io/gh/marshallbrekka/go-u2fhost/branch/master/graph/badge.svg)](https://codecov.io/gh/marshallbrekka/go-u2fhost)
+[![GoDoc](https://godoc.org/github.com/ocraviotto/go-u2fhost?status.svg)](http://godoc.org/github.com/ocraviotto/go-u2fhost) [![CircleCI](https://circleci.com/gh/ocraviotto/go-u2fhost.svg?style=shield)](https://circleci.com/gh/ocraviotto/go-u2fhost) [![codecov](https://codecov.io/gh/ocraviotto/go-u2fhost/branch/master/graph/badge.svg)](https://codecov.io/gh/ocraviotto/go-u2fhost)
 
 
 A library for using U2F USB devices from Go programs.

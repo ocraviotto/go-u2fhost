@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	butil "github.com/marshallbrekka/go-u2fhost/bytes"
+	butil "github.com/ocraviotto/go-u2fhost/bytes"
 )
 
 func TestOpen(t *testing.T) {
