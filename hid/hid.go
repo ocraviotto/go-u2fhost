@@ -46,6 +46,7 @@ func Devices() []*HidDevice {
 		if device.UsagePage == 0xf1d0 && device.Usage == 1 {
 			u2fDevices = append(u2fDevices, newHidDevice(newRawHidDevice(&devices[i])))
 		}
+		fmt.Printf("%+v\n", devices[i])
 	}
 	return u2fDevices
 }
@@ -66,6 +67,7 @@ func newHidDevice(device baseDevice) *HidDevice {
 }
 
 func (dev *HidDevice) Open() error {
+	fmt.Printf("Opening Device\n")
 	err := dev.device.Open()
 	if err != nil {
 		return err
@@ -80,6 +82,7 @@ func (dev *HidDevice) Open() error {
 		return err
 	}
 	dev.channelId = channelId
+	fmt.Printf("ChannelID: %s", channelId)
 	return nil
 }
 
